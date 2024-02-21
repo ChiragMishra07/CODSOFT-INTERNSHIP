@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-image: linear-gradient(to right, #333, #555);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .column {
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .column:hover {
+            transform: translateY(-5px);
+        }
+
+        .column h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .column p {
+            color: #666;
+        }
+
+        .column code {
+            background-color: #f0f0f0;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-right: 8px;
+            color: #333;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            background-image: linear-gradient(to right, #555, #333);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <h2>About Us</h2>
+            <p>Let us be your partners in success, guiding you through every step of the process with creativity, expertise, and a commitment to excellence.</p>
+        </div>
+
+        <div class="column">
+            <h2>Services</h2>
+            <ul>
+                <li><i class="fas fa-code icon"></i> Web Development</li>
+                <li><i class="fas fa-paint-brush icon"></i> Graphic Design</li>
+                <li><i class="fas fa-mobile-alt icon"></i> Responsive Design</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Contact Us</h2>
+            <p>Email: chiragmishra2023@gmail.com</p>
+            <p>Phone: 9784645883</p>
+        </div>
+        <div class="column">
+            <h2>MY PORTFOLIO</h2>
+            <p><a href ="..//MY PORTFOLIO/MY PORTFOLIO.html">My Portfolio</a></p>
+            <h2>CALCULATOR</h2>
+            <p><a href="../CALCULATOR/CALCULATOR.html">Calculator</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="column">
+            <h2>Featured Code</h2>
+            <p>Check out this code snippet:</p>
+            <code>
+                &lt;html&gt;<br>
+                &nbsp;&nbsp;&lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Hello World&lt;/title&gt;<br>
+                &nbsp;&nbsp;&lt;/head&gt;<br>
+                &nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Hello, World!&lt;/h1&gt;<br>
+                &nbsp;&nbsp;&lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </div>
+
+        <div class="column">
+            <h2>Learn More</h2>
+            <p>Ready to take your website to the next level?</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+
+        <div class="column">
+            <h2>Follow Us</h2>
+            <p>Stay updated with our latest news and updates.</p>
+            <ul>
+                <li><i class="fab fa-facebook-f icon"></i> Facebook</li>
+                <li><i class="fab fa-twitter icon"></i> Twitter</li>
+                <li><i class="fab fa-instagram icon"></i> Instagram</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2022 Our Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
